@@ -6,7 +6,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => ({
     plugins: [react()],
-    // base: command === 'build' ? '/olesiklesha/' : '/',
     server: {
         host: true,
         port: 3000,
