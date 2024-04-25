@@ -2,7 +2,6 @@
   "name": "cleverfit",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://olesiklesha.github.io/cleverFIT/",
   "type": "module",
   "engines": {
     "node": ">=20",

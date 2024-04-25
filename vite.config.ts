@@ -4,9 +4,9 @@ import path from 'path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
-export default defineConfig(() => ({
+export default defineConfig(({ command }) => ({
+    base: command === 'build' ? '/cleverFIT' : '/',
     plugins: [react()],
-    // base: '/cleverFIT',
     server: {
         host: true,
         port: 3000,
