@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => ({
     plugins: [react()],
-    base: '/cleverFIT',
+    // base: '/cleverFIT',
     server: {
         host: true,
         port: 3000,
