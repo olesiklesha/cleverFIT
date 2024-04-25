@@ -1,0 +1,37 @@
+.settings-modal .ant-result-success .ant-result-icon > .anticon {
+    color: var(--primary-light-6)
+}
+
+.settings-modal .ant-result-icon {
+    margin-bottom: var(--indent-ml);
+}
+
+.settings-modal .ant-result {
+    padding: 40px var(--indent-x);
+}
+
+.settings-modal .ant-result-extra > *:last-child {
+    margin: 0 auto;
+}
+
+.ant-modal-wrap.settings-modal-wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: initial;
+    bottom: initial;
+}
+
+.settings-modal div[aria-hidden=true] {
+    display: none;
+}
+
+div[data-test-id='tariff-modal-success'] {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,11 @@
+.partners-list-header .ant-btn {
+    padding-left: 0;
+}
+
+.partners-list-header {
+    margin-bottom: var(--indent-ml);
+    max-width: 734px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

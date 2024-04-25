@@ -1,0 +1,37 @@
+.auth-card .form-title {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+    margin-bottom: var(--indent-l);
+}
+
+.auth-card .auth-form_rec {
+    max-width: 368px;
+    margin: 0 auto;
+}
+
+@media (max-width: 460px) {
+    .auth-form_rec .password-field {
+        margin-bottom: 45px;
+    }
+
+    .auth-form_rec .ant-form-item-explain {
+        word-spacing: -1px;
+    }
+
+    .auth-form_rec .repeat-password-field {
+        margin-bottom: 62px;
+    }
+
+    .auth-form_rec .ant-btn {
+        font-family: var(--font-family);
+        font-weight: var(--weight-regular);
+        font-size: var(--font-size-x);
+        line-height: var(--line-height);
+        text-align: center;
+        color: var(--character-light-primary-inverse);
+    }
+}

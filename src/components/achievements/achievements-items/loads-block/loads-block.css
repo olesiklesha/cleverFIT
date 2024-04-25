@@ -1,0 +1,11 @@
+
+.loads-chart {
+    border: 1px solid var(--character-light-dividers);
+    border-radius: 2px;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.loads-chart_narrow {
+    flex: 0 1 520px;
+}

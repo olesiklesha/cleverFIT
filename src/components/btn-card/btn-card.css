@@ -1,0 +1,39 @@
+.btn-card .ant-card-head-title {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+    text-align: center;
+    white-space: initial;
+    overflow: auto;
+    text-overflow: initial;
+    padding-top: var(--indent-s);
+    padding-bottom: var(--indent-s);
+}
+
+.btn-card .ant-card-body {
+    padding: 0;
+}
+
+.btn-card .ant-btn {
+    width: 100%;
+    height: 56px;
+    padding: var(--indent-s) 0;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--primary-light-6);
+}
+
+.btn-card .anticon > svg {
+    fill: var(--primary-light-6);
+}
+
+@media (max-width: 768px) {
+    .btn-card .ant-btn {
+        height: 54px;
+    }
+}

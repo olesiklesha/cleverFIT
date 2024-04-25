@@ -1,0 +1,17 @@
+.curr-partner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.drawer .partner-info p {
+    max-width: 200px;
+}
+
+.drawer .partner-info {
+    margin: 0;
+}
+
+.joint-workouts-form {
+    height: calc(100% - 48px);
+}

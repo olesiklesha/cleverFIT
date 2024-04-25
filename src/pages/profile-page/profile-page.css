@@ -1,0 +1,47 @@
+.page-content {
+    flex-grow: 1;
+    margin: var(--indent-ml) var(--indent-ml) 42px;
+    background: var(--character-light-primary-inverse);
+    border-radius: 8px;
+    padding: var(--indent-ml);
+    text-align: left;
+}
+
+.profile-content {
+    position: relative;
+}
+
+.profile-content .ant-typography {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+    text-align: left;
+}
+
+.personal-info-form .ant-upload-list-item-uploading .ant-upload-list-item-thumbnail {
+    visibility: hidden;
+}
+
+.personal-info-form .ant-upload-list-item-info .ant-upload-list-item-thumbnail:after {
+    content: "Загружаем";
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.personal-info-form .ant-upload-list-item-done .ant-upload-list-item-thumbnail:after {
+    visibility: hidden;
+}
+
+@media (max-width: 575px) {
+    .profile-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

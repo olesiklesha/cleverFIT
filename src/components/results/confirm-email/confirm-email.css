@@ -1,0 +1,103 @@
+.auth-card .ant-result {
+    padding: 0;
+}
+
+.auth-card .ant-result-info {
+    padding: 0;
+}
+
+.auth-card .ant-result-title {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+}
+
+.auth-card .ant-result-subtitle {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-secondary-45);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.auth-card .ant-result-subtitle > span {
+    font-weight: var(--weight-bold);
+}
+
+.confirm-result .ant-result-icon > .anticon {
+    color: var(--primary-light-6)
+}
+
+.confirm-result_error {
+    padding: 0;
+}
+
+.confirm-result_error .ant-result-icon > .anticon {
+    color: var(--character-light-error);
+}
+
+.confirm-result .ant-result-icon {
+    margin-bottom: 30px;
+}
+
+.confirm-result .ant-result-extra > .vi-custom-container {
+    margin: 0 auto var(--indent-sm);
+    justify-content: center;
+    gap: var(--indent-s);
+}
+
+.vi-custom-character {
+    border: var(--border-default);
+    border-radius: 2px;
+    flex: 0 1 40px;
+    height: 40px;
+    background: var(--character-light-primary-inverse);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vi-custom-character_invalid {
+    border: var(--border-error);
+}
+
+.vi-custom-text {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+}
+
+.confirm-result .sub-text {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-secondary-45);
+}
+
+@media (max-width: 460px) {
+    .vi-custom-container {
+        gap: var(--indent-x);
+    }
+
+    .confirm-result .sub-text {
+        word-wrap: normal;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .auth-card .ant-result-subtitle > span {
+        display: block;
+    }
+}

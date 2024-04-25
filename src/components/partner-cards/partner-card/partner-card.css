@@ -1,0 +1,71 @@
+.partner-card .ant-card-body {
+    background: var(--primary-light-1);
+    padding: var(--indent-m) var(--indent-m) var(--indent-x);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 194px;
+}
+
+.partner-info {
+    display: flex;
+    gap: var(--indent-x);
+    align-items: center;
+    margin-bottom: var(--indent-s);
+}
+
+.partner-training-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-training-info__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-training-info__item:last-child {
+    color: var(--primary-light-6);
+    font-weight: var(--weight-medium);
+}
+
+.partner-info .ant-avatar {
+    flex-shrink: 0;
+}
+
+.partner-info p {
+    word-spacing: 200px;
+    margin: 0;
+    text-overflow: ellipsis;
+    max-height: 44px;
+    overflow: hidden;
+    white-space: pre-line;
+}
+
+.partner-info mark {
+    padding: 0;
+    color: var(--character-light-red-4);
+    background: transparent;
+}
+
+.partner-card .ant-btn-primary {
+    background: var(--primary-light-6);
+    border: var(--border-primary);
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-training-info {
+    margin-bottom: var(--indent-s);
+}
+
+.partner-card .ant-btn-primary:not(:last-child) {
+    margin-bottom: var(--indent-s);
+}
+
+.invite-status-text {
+    text-align: center;
+}
+

@@ -1,0 +1,95 @@
+
+.feedback-card .ant-card-body {
+    padding: var(--indent-m);
+    display: flex;
+    justify-content: start;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-secondary-45);
+}
+
+.author-info {
+    width: 174px;
+    flex-shrink: 0;
+    margin-right: var(--indent-s);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--indent-s);
+}
+
+.author-fullName {
+    word-spacing: 174px;
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+}
+
+.feedback-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--indent-s);
+}
+
+.ant-rate-star:not(:last-child) {
+    margin-right: 4px;
+}
+
+.feedback-body__header {
+    display: flex;
+    gap: var(--indent-m);
+    align-items: center;
+}
+
+.ant-rate-star.ant-rate-star-full .ant-rate-star-second,
+.ant-rate-star.ant-rate-star-full .ant-rate-star-first {
+    line-height: 1;
+}
+
+.ant-rate-star.ant-rate-star-full .ant-rate-star-second .anticon > svg > path:first-child,
+.ant-rate-star.ant-rate-star-full .ant-rate-star-first .anticon > svg > :first-child {
+    fill: var(--character-light-warning);
+    transform: scale(1.1) translate(-5%, -5%);
+}
+
+.ant-rate-star.ant-rate-star-zero .ant-rate-star-second .anticon > svg > path:first-child,
+.ant-rate-star.ant-rate-star-zero .ant-rate-star-first .anticon > svg > path:first-child {
+    fill: transparent;
+}
+
+.date {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: 12px;
+    line-height: var(--line-height);
+    text-align: right;
+    color: var(--character-light-disable-25);
+}
+
+.feedback-text {
+    text-align: left;
+}
+
+@media (max-width: 640px) {
+    .feedback-card .ant-card-body {
+        flex-direction: column;
+        gap: var(--indent-s);
+    }
+
+    .author-info {
+        width: fit-content;
+        flex-direction: row;
+    }
+
+    .author-fullName {
+        max-width: 100px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,16 @@
+.ant-alert.profile-alert {
+    position: absolute;
+    max-width: 395px;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-family);
+}
+
+@media (max-width: 570px) {
+    .ant-alert.profile-alert {
+        bottom: 50px;
+    }
+}

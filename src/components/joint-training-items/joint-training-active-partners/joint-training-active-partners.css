@@ -1,0 +1,27 @@
+.partners-container {
+    color: var(--character-light-secondary-45);
+}
+
+.partners-container .ant-typography {
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-m);
+    margin-top: var(--indent-m);
+    margin-bottom: var(--indent-s);
+}
+
+
+@media (max-width: 480px) {
+    .active-partner-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .active-partner-card .partner-training-info {
+        justify-content: flex-start;
+        gap: var(--indent-m);
+    }
+
+    .active-partner-card .partner-info p {
+        word-spacing: 400px;
+    }
+}

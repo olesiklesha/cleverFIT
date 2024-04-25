@@ -1,0 +1,45 @@
+.create-modal-header {
+    padding: var(--indent-s);
+    display: flex;
+}
+
+.create-modal-header .ant-btn {
+    margin-left: -8px;
+}
+
+.create-modal-header .ant-select {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.create-modal-header .ant-select-selection-placeholder {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+}
+
+.create-modal-body {
+    min-height: 91px;
+    padding: var(--indent-m) var(--indent-s);
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+    background: var(--character-light-primary-inverse);
+}
+
+.create-modal-body .training-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-secondary-45);
+    margin-bottom: 9px;
+}
+
+.create-training-modal .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    padding-left: 0;
+}
+

@@ -1,0 +1,53 @@
+
+.ant-modal .ant-btn-primary,
+.ant-modal .ant-btn-primary:active,
+.ant-modal .ant-btn-primary:hover {
+    background: var(--primary-light-6);
+    border: var(--border-primary);
+}
+
+.ant-modal .ant-btn-primary:disabled {
+    background: var(--character-light-background);
+    border: 1px solid var(--character-light-background);
+}
+
+.ant-modal .ant-btn {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+}
+
+.ant-modal .ant-form-item-control-input {
+    min-height: 24px;
+}
+
+.ant-modal .ant-rate-star:not(:last-child) {
+    margin-right: 4px;
+}
+
+.ant-modal-header {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+}
+
+.modal-textarea {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+}
+
+.modal-textarea::placeholder {
+    color: var(--character-light-disable-25);
+}
+
+@media (max-width: 640px) {
+    .ant-modal-header {
+        padding: var(--indent-m) var(--indent-m) var(--indent-xs);
+    }
+}

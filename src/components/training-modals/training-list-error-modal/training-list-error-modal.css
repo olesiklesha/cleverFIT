@@ -1,0 +1,42 @@
+.modal-body {
+    display: flex;
+    position: relative;
+    height: 112px;
+    align-items: flex-start;
+    gap: var(--indent-m);
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+    font-size: var(--font-size-s);
+}
+
+.modal-body__title {
+    font-size: var(--font-size-x);
+    width: 60%;
+    margin: 0 0 var(--indent-x) 0;
+}
+
+.modal-body p {
+    color: var(--character-light-secondary-45);
+    margin: 0;
+}
+
+.ant-btn.modal-error-btn {
+    position: absolute;
+    bottom: 24px;
+    right: 16px;
+}
+
+@media (max-width: 420px) {
+    .ant-btn.modal-error-btn {
+        position: static;
+        display: block;
+        width: 100%;
+    }
+
+    .modal-body {
+        height: fit-content;
+        margin-bottom: var(--indent-m);
+    }
+}

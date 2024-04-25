@@ -1,0 +1,81 @@
+.ant-tabs.workout-tabs {
+    height: 100%;
+}
+
+.workout-tabs .ant-tabs-nav-list {
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--indent-x) var(--indent-s) 1px;
+}
+
+.workout-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0;
+}
+
+.workout-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0;
+}
+
+.workout-tabs .ant-tabs-nav {
+    margin: var(--indent-s) 0;
+}
+
+.workout-tabs .ant-tabs-tab {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    line-height: var(--line-height);
+    padding: 0;
+}
+
+.workout-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--primary-light-6);
+}
+
+.workout-tabs .ant-tabs-nav .ant-tabs-nav-list > .ant-tabs-ink-bar {
+    background: var(--primary-light-6);
+}
+
+.ant-tabs.workout-tabs > .ant-tabs-nav .ant-tabs-nav-operations,
+.ant-tabs.workout-tabs > div > .ant-tabs-nav .ant-tabs-nav-operations {
+    display: none;
+}
+
+.workout-tabs .ant-tabs-content,
+.workout-tabs .ant-tabs-tabpane {
+    height: 100%;
+}
+
+@media (max-width: 960px) {
+    .workout-tabs .ant-tabs-tab {
+        font-size: var(--font-size-m);
+    }
+}
+
+@media (max-width: 840px) {
+    .workout-tabs .ant-tabs-tab {
+        font-size: var(--font-size-s);
+        padding: var(--indent-sm) 4px;
+    }
+}
+
+@media (max-width: 575px) {
+    .workouts-content {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 var(--indent-s);
+    }
+
+    .workout-tabs .ant-tabs-nav-list {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+    .workout-tabs .ant-tabs-nav-list {
+        width: initial;
+    }
+}

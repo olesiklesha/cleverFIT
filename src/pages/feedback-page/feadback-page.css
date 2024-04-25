@@ -1,0 +1,176 @@
+.main-container .breadcrumbs-header {
+    background: var(--primary-light-1);
+    padding: var(--indent-m) var(--indent-ml);
+    margin-bottom: var(--indent-ml);
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+}
+
+.breadcrumbs-header .ant-breadcrumb li {
+    color: var(--character-light-secondary-45);
+}
+
+.breadcrumbs-header .ant-breadcrumb li:last-child {
+    color: var(--character-light-title-85);
+}
+
+.main-container .empty-feedback-content {
+    flex: 1 1 auto;
+    padding: 0 var(--indent-ml) var(--indent-ml);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-container .empty-feedback-card {
+    width: 100%;
+}
+
+.empty-feedback-card .ant-card-body {
+    padding: var(--indent-xl) var(--indent-ml);
+}
+
+.empty-feedback-card .title {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--primary-light-9);
+    margin-bottom: 48px;
+}
+
+.empty-feedback-card .text {
+    display: block;
+    margin: 0 auto;
+    max-width: 521px;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-secondary-45);
+    word-spacing: -1px;
+}
+
+.empty-feedback-content .ant-btn-primary,
+.feedbacks-content .ant-btn-primary {
+    border: var(--border-primary);
+    background: var(--primary-light-6);
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-primary-inverse);
+}
+
+.empty-feedback-content .ant-btn-primary,
+.feedbacks-content .ant-btn-primary {
+    padding: 4px 15px;
+    font-size: var(--font-size-s);
+}
+
+.feedbacks-content .ant-btn-text {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--primary-light-6);
+}
+
+.feedbacks-content {
+    padding: 0 var(--indent-ml) 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbacks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    max-height: calc(100vh - 78px - 152px - 48px - 20px);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    transition: all 0.3s ease 0s;
+}
+
+.feedbacks-container::-webkit-scrollbar {
+    display: none;
+}
+
+.feedbacks-container_collapsed {
+    flex-grow: 0;
+}
+
+.feedbacks-content .feedback-btn-container {
+    height: 152px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.feedback-form .ant-form-item {
+    margin: 0;
+}
+
+.feedback-form .ant-form-item:not(:last-of-type) {
+    margin-bottom: var(--indent-m);
+}
+
+.result-modal .ant-result {
+    padding: 0;
+    max-width: 368px;
+    margin: 0 auto;
+}
+
+.breadcrumbs-header .ant-page-header-content {
+    padding: 0;
+}
+
+@media (max-width: 640px) {
+    .main-container .empty-feedback-content {
+        justify-content: flex-start;
+        padding: 0 15px 15px;
+        gap: 48px;
+    }
+
+    .empty-feedback-card .ant-card-body {
+        padding: 48px var(--indent-l);
+    }
+
+    .empty-feedback-card .title {
+        word-spacing: -2px;
+    }
+
+    .feedbacks-content {
+        padding: 0 var(--indent-m) 42px;
+    }
+
+    .feedbacks-content .feedback-btn-container {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: var(--indent-m);
+        height: 128px;
+    }
+
+    .feedback-btn-container .ant-btn {
+        display: block;
+        width: 100%;
+    }
+
+    .feedbacks-container {
+        overflow: visible;
+        max-height: fit-content;
+    }
+}

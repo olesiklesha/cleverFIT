@@ -1,0 +1,49 @@
+.ant-form.settings-features-form {
+    max-width: 505px;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-primary-inverse);
+    display: flex;
+    flex-direction: column;
+    gap: var(--indent-m);
+    margin-bottom: 112px;
+}
+
+.settings-features-form .ant-form-item {
+    margin: 0;
+}
+
+.settings-features-form .ant-form-item-control-input {
+    min-height: fit-content;
+
+}
+
+.settings-features-form .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-item-label {
+    font-weight: var(--weight-bold);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+}
+
+.form-item-label .anticon {
+    margin-left: 4px;
+}
+
+.form-item-label_disabled {
+    color: var(--character-light-disable-25);
+}
+
+@media (max-width: 575px) {
+    .ant-form.settings-features-form {
+        gap: var(--indent-ml);
+        margin-bottom: 36px;
+    }
+}

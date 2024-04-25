@@ -1,0 +1,24 @@
+
+.ant-modal .ant-result-title,
+.ant-modal .ant-result-subtitle {
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    text-align: center;
+
+}
+
+.ant-modal .ant-result-title {
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    color: var(--character-light-title-85);
+}
+
+.ant-modal .ant-result-subtitle {
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    color: var(--character-light-secondary-45);
+}
+
+.ant-modal .error-result .ant-result-extra {
+    display: flex;
+}

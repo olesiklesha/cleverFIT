@@ -1,0 +1,222 @@
+.drawer .ant-drawer-content {
+    border-radius: 8px 0 0 8px;
+}
+
+.drawer .ant-drawer-header {
+    border: none;
+}
+
+.drawer .ant-drawer-header-title {
+    flex-direction: row-reverse;
+}
+
+.drawer .ant-drawer-close {
+    margin: 0;
+}
+
+.ant-drawer-footer .ant-btn-primary {
+    background: var(--primary-light-6);
+    border: var(--border-primary);
+}
+
+.ant-drawer-header-title .ant-btn {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-m);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+    display: flex;
+    align-items: center;
+}
+
+.drawer .ant-badge-status-text,
+.training-info span {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-secondary-45);
+}
+
+.training-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 var(--indent-x);
+}
+
+.add-exercise-form,
+.custom-exercise-form {
+    width: 100%;
+    height: calc(100% - 32px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    padding-right: var(--indent-s);
+}
+
+.custom-exercise-form::-webkit-scrollbar,
+.add-exercise-form::-webkit-scrollbar {
+    position: absolute;
+    width: 8px;
+    right: 10px;
+}
+
+.custom-exercise-form::-webkit-scrollbar-track,
+.add-exercise-form::-webkit-scrollbar-track {
+    background: transparent;
+    margin-right: -10px;
+    position: absolute;
+}
+
+.custom-exercise-form::-webkit-scrollbar-thumb,
+.add-exercise-form::-webkit-scrollbar-thumb {
+    background: var(--character-light-disable-25);
+    border-radius: 99px;
+    width: 8px;
+}
+
+.custom-exercise-form::-webkit-scrollbar-thumb:hover,
+.add-exercise-form::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.add-exercise-form .ant-form-item-row {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    gap: 6px;
+}
+
+.add-exercise-form .ant-col .ant-form-item-label {
+    padding: 0;
+}
+
+.add-exercise-form .ant-form-item-label > label {
+    height: fit-content;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: 12px;
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+    padding: var(--indent-x);
+    padding-left: 0;
+}
+
+.add-exercise-form .ant-col {
+    min-height: 24px;
+}
+
+.add-exercise-form .ant-form-item-label {
+    text-align: left;
+    border-bottom: 1px solid var(--character-light-dividers);
+    padding: 0 var(--indent-x);
+    background: var(--character-light-dividers);
+}
+
+.add-exercise-form .ant-input-number-input,
+.add-exercise-form .ant-input,
+.add-exercise-form .ant-form-item-control-input {
+    min-height: 24px;
+    height: 24px;
+}
+
+.num-inputs-container {
+    display: flex;
+    margin-bottom: var(--indent-ml);
+    justify-content: space-between;
+}
+
+.num-inputs-container .ant-form-item {
+    margin: 0;
+}
+
+.num-inputs-container_s {
+    align-items: flex-end;
+    margin: 0;
+    gap: 2px;
+}
+
+.custom-exercise-form .ant-row .ant-form-item-row {
+    height: 22px;
+}
+
+.custom-exercise-form .ant-input-group-wrapper {
+    margin-bottom: var(--indent-x);
+}
+
+.custom-exercise-form .ant-row,
+.custom-exercise-form .ant-form-item-control,
+.custom-exercise-form .ant-form-item-control-input,
+.custom-exercise-form .ant-form-item-control-input-content,
+.custom-exercise-form .ant-checkbox-wrapper,
+.custom-exercise-form .ant-col {
+    min-height: 22px;
+    height: 100%;
+}
+
+.custom-exercise-form input {
+    height: 24px;
+    min-height: 22px;
+}
+
+.custom-exercise-form .ant-form-item-control-input-content > * {
+    min-height: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-exercise-form {
+    display: flex;
+    flex-direction: column;
+    padding: var(--indent-l) 6px 0 0;
+}
+
+.input-container input {
+    outline: none;
+    padding: 1px var(--indent-x);
+}
+
+.input-num-container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 6px;
+}
+
+.num-inputs-container_s .input-num-container,
+.num-inputs-container_s > * {
+    width: 89px;
+}
+
+.input-num-container > label {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--character-light-dividers);
+    padding: var(--indent-x);
+    width: 100%;
+    height: 24px;
+    background: var(--character-light-dividers);
+}
+
+div[aria-hidden=true] {
+    display: none;
+}
+
+.drawer .ant-drawer-content-wrapper {
+    z-index: 2000;
+}
+
+@media (max-width: 576px) {
+    .drawer .ant-drawer-content {
+        border-radius: 24px 24px 0 0;
+    }
+
+    .add-exercise-form .ant-form-item-label > label {
+        padding: var(--indent-x);
+    }
+
+    .add-exercise-form .ant-form-item .ant-form-item-label {
+        padding: 0;
+    }
+}

@@ -1,0 +1,31 @@
+.statistic-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--indent-ml);
+}
+
+.empty-achievements .ant-result-title {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+}
+
+.empty-achievements .anticon {
+    width: 200px;
+    height: 175px;
+}
+
+.ant-result.empty-achievements {
+    padding-top: 112px;
+}
+
+@media (max-width: 575px) {
+    .ant-result.empty-achievements {
+        padding-top: var(--indent-ml);
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

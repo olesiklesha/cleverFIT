@@ -1,0 +1,59 @@
+.averages-card-container {
+    display: flex;
+    gap: var(--indent-ml);
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    flex-wrap: wrap;
+    padding: var(--indent-ml) 0;
+}
+
+.average-card {
+    border: 1px solid var(--character-light-dividers);
+    border-radius: 2px;
+    padding: var(--indent-ml) 20px;
+    flex-basis: 156px;
+    text-align: center;
+}
+
+.average-card h4 {
+    font-weight: var(--weight-bold);
+    font-size: var(--font-size-xll);
+    line-height: var(--line-height);
+    margin: 0;
+}
+
+.average-card p {
+    color: var(--character-light-secondary-45);
+    margin: 0;
+}
+
+.average-card:nth-child(even) > p {
+    width: 65%;
+    margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+    .averages-card-container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 385px) {
+    .averages-card-container {
+        flex-direction: column;
+        gap: var(--indent-m);
+    }
+
+    .average-card {
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: fit-content;
+        padding: var(--indent-x);
+    }
+
+    .average-card p {
+        text-align: right;
+    }
+}

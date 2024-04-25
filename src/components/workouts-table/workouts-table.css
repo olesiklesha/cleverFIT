@@ -1,0 +1,105 @@
+.training-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workouts-table {
+    margin-bottom: 38px;
+    margin-top: var(--indent-ml);
+}
+
+.workouts-table td.ant-table-column-sort {
+    background: transparent;
+}
+
+.workouts-table .ant-table-thead th.ant-table-column-sort {
+    background: var(--character-light-dividers);
+}
+
+.workouts-table .ant-table-thead > tr > th:last-child {
+    display: none;
+}
+
+.workouts-table .ant-table-thead > tr > th {
+    background: var(--character-light-dividers);
+}
+
+.workouts-table .ant-table-thead {
+    margin-bottom: var(--indent-ml);
+    height: fit-content;
+}
+
+.workouts-table .ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan]):before {
+    display: none;
+}
+
+.workouts-table .ant-table-thead > tr:last-child {
+    display: none;
+}
+
+.workouts-table .ant-table-tbody > tr {
+    height: 32px;
+}
+
+.workouts-table .ant-table.ant-table-small .ant-table-tbody > tr > td {
+    padding: 0;
+}
+
+.workouts-table .ant-table-cell {
+    position: relative;
+}
+
+.workouts-table .ant-table-tbody > tr > .ant-table-cell:not(:last-child) {
+    width: 240px;
+}
+
+.workouts-table .ant-table-tbody > tr > .ant-table-cell:last-child {
+    border: none;
+}
+
+.workouts-table .ant-table-tbody > tr > .ant-table-cell:first-child {
+    width: 6px;
+}
+
+.workouts-table .ant-table table {
+    border-spacing: 12px 0;
+}
+
+.workouts-table .ant-table-tbody:before {
+    height: 24px;
+    content: '';
+    display: block;
+}
+
+.workouts-table .ant-table-container table > thead > tr:first-child th:first-child {
+    text-align: left;
+
+}
+
+.workouts-table .ant-table.ant-table-small .ant-table-thead > tr > th {
+    font-size: 12px;
+    line-height: var(--line-height);
+    font-family: var(--font-family);
+    height: 34px;
+    padding: 6px var(--indent-x);
+}
+
+@media (max-width: 575px) {
+    .workouts-table .ant-tabs-top > .ant-tabs-nav {
+        margin-bottom: 20px;
+    }
+
+    .workouts-table {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .workouts-table .ant-table-thead {
+        margin-bottom: var(--indent-s);
+    }
+
+    .workouts-table .ant-table-tbody:before {
+        height: 16px;
+    }
+}

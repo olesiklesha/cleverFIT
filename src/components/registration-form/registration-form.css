@@ -1,0 +1,46 @@
+.auth-form_r .password-field {
+    margin-bottom: 46px;
+}
+
+.auth-form_r .repeat-password-field {
+    margin-bottom: 62px;
+}
+
+.auth-form_r .input-field {
+    margin-top: var(--indent-x);
+}
+
+.auth-form_r {
+    margin-bottom: 0;
+}
+
+.auth-form_r .btn-area {
+    margin: 0;
+}
+
+.auth-form_r .ant-btn-primary[disabled] {
+    color: rgba(0, 0, 0, 0.25);
+    border-color: var(--neutral-gray-5);
+    background: var(--neutral-gray-3);
+    text-shadow: none;
+    box-shadow: none;
+}
+
+
+@media (max-width: 460px) {
+    .auth-form_r .input-field {
+        margin-top: 0;
+    }
+
+    .auth-form_r .password-field {
+        margin-bottom: 46px;
+    }
+
+    .auth-form_r .ant-form-item-explain {
+        word-spacing: -1px;
+    }
+
+    .auth-form_r .repeat-password-field {
+        margin-bottom: 54px;
+    }
+}

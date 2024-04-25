@@ -1,0 +1,45 @@
+
+.tariff-list-header {
+    margin-top: 52px;
+    text-align: right;
+}
+
+.tariff-list-header .ant-tag {
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: 12px;
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+    padding: 4px 8px;
+    margin-right: var(--indent-sm);
+    margin-bottom: var(--indent-ml);
+    width: 56px;
+}
+
+.tariff-list-header .ant-tag:last-child {
+    margin-right: 0;
+}
+
+.tariff-comparasion-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--indent-m);
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+}
+
+.comparison-icon-container {
+    display: flex;
+    gap: 52px;
+}
+
+.tariff-list-item {
+    padding-right: var(--indent-m);
+    display: flex;
+    justify-content: space-between;
+}

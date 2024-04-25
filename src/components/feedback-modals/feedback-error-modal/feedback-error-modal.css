@@ -1,0 +1,6 @@
+@media (max-width: 640px) {
+    .modal-error-500 .ant-result-subtitle {
+        margin: 0 auto;
+        width: 60%;
+    }
+}

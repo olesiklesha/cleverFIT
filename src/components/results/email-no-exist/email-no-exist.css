@@ -1,0 +1,18 @@
+.result-card .email-no-exist-pass-result {
+    max-width: 100%;
+}
+
+.email-no-exist-pass-result .ant-result-subtitle {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 460px) {
+    .result-card .email-no-exist-pass-result {
+        padding: var(--indent-l) 0 var(--indent-ml);
+    }
+
+    .email-no-exist-pass-result .ant-result-subtitle {
+        width: 100%;
+    }
+}

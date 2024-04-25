@@ -1,0 +1,52 @@
+.week-loads-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: var(--indent-m);
+}
+
+.week-loads-container .list-container {
+    flex: 0 0 200px;
+    margin-left: 0;
+}
+
+.week-loads-container .list-container:not(:last-child) {
+    margin-right: 100px;
+}
+
+@media (max-width: 906px) {
+    .ant-layout-sider ~ .main-container .week-loads-container .list-container,
+    .ant-layout-sider ~ .main-container .week-loads-container .list-container:not(:last-child) {
+        margin: 0;
+    }
+
+    .ant-layout-sider ~ .main-container .week-loads-container {
+        gap: var(--indent-m);
+    }
+}
+
+@media (max-width: 575px) {
+    .week-loads-container {
+        flex-direction: column;
+    }
+}
+
+.week-loads-container .ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header {
+    width: 188px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+}
+
+.week-loads-container .ant-collapse-ghost > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+    padding: var(--indent-x) 0 0;
+}
+
+.week-loads-container .list__item:last-child {
+    padding-bottom: 0;
+}
+
+.week-loads-container .dayName {
+    flex: 0 0 77px;
+}

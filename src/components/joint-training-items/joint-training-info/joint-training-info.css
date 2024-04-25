@@ -1,0 +1,50 @@
+.joint-training-info-container {
+    background: var(--character-light-table-header);
+    border: 1px solid var(--character-light-dividers);
+    border-radius: 2px;
+    padding: var(--indent-l) 0 0;
+    text-align: center;
+}
+
+.joint-training-info-container__text {
+    padding: 0 var(--indent-ml) var(--indent-ml);
+    color: var(--character-light-secondary-45);
+}
+
+.joint-training-info-container__text .ant-typography {
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    color: var(--primary-light-9);
+    margin-bottom: var(--indent-l);
+}
+
+.joint-training-info-container__text p {
+    margin: 0;
+}
+
+.joint-training-info-container__btns {
+    box-shadow: inset 0 1px 0 0 var(--character-light-dividers);
+    padding: var(--indent-m);
+    display: flex;
+    gap: var(--indent-m);
+    justify-content: center;
+    align-items: center;
+}
+
+.joint-training-info-container__btns .ant-btn {
+    width: 472px;
+}
+
+@media (max-width: 890px) {
+    .joint-training-info-container__btns {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 575px) {
+    .joint-training-info-container__btns .ant-btn {
+        width: 100%;
+        font-size: var(--font-size-s);
+    }
+}

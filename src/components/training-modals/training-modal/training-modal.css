@@ -1,0 +1,71 @@
+
+.ant-picker-cell .ant-modal-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.calendar-content .ant-modal-wrap {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    height: 100%;
+}
+
+
+.calendar-content .ant-modal-wrap > .ant-modal {
+    top: initial;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+}
+
+.calendar-content .ant-modal-wrap.top-left > .ant-modal {
+    top: 2px;
+    left: 5px;
+}
+
+.calendar-content .ant-modal-wrap.bottom-right .ant-modal {
+    bottom: 0;
+    right: 3px;
+    transform-origin: initial;
+}
+
+.create-training-modal .ant-modal-footer {
+    padding: var(--indent-s);
+}
+
+.modal-header {
+    text-align: left;
+    line-height: var(--line-height);
+    font-family: var(--font-family);
+    font-size: var(--font-size-s);
+    color: var(--character-light-secondary-45);
+}
+
+.modal-header__title {
+    color: var(--character-light-title-85);
+    font-size: var(--font-size-s);
+    margin-bottom: 4px;
+    font-weight: var(--weight-bold);
+}
+
+.create-training-modal .ant-empty {
+    margin: var(--indent-l) auto var(--indent-m);
+}
+
+.create-training-modal .ant-empty-image > img {
+    width: 100%;
+}
+
+@media (max-width: 575px) {
+    .calendar-content .ant-modal-wrap.top-left > .ant-modal,
+    .calendar-content .ant-modal-wrap.bottom-right .ant-modal {
+        top: -120px;
+        left: 0;
+        margin: 0;
+    }
+}

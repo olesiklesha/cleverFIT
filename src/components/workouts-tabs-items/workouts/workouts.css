@@ -1,0 +1,11 @@
+.ant-tabs-content-holder .ant-btn-primary {
+    background: var(--primary-light-6);
+    border: var(--border-primary);
+}
+
+@media (max-width: 575px) {
+    .ant-tabs-content-holder .ant-btn-primary {
+        width: 100%;
+        margin-bottom: var(--indent-m);
+    }
+}

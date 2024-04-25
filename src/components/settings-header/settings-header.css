@@ -1,0 +1,28 @@
+
+.ant-layout-header.settings-header {
+    background: var(--primary-light-1);
+    display: flex;
+    padding: var(--indent-m) var(--indent-ml);
+    align-items: center;
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+    height: 70px;
+}
+
+.settings-header .ant-typography {
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-m);
+    margin: 0 0 0 var(--indent-x);
+}
+
+@media (max-width: 575px) {
+    .ant-layout-header.settings-header {
+        height: fit-content;
+    }
+
+    .settings-header .ant-typography {
+        font-size: var(--font-size-s);
+        font-weight: var(--weight-regular);
+    }
+}

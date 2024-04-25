@@ -1,0 +1,59 @@
+.invites-block {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.02);
+    background: var(--character-light-table-header);
+    border-radius: 2px;
+    padding: var(--indent-m) var(--indent-ml) var(--indent-ml);
+}
+
+.invites-block .ant-typography {
+    font-size: var(--font-size-s);
+    color: var(--character-light-secondary-45);
+    font-weight: var(--weight-regular);
+    margin: 0;
+}
+
+.ant-card.invite-card {
+    margin-top: var(--indent-m);
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.02);
+    background: var(--character-light-primary-inverse);
+    border-radius: 2px 16px 16px;
+}
+
+.invite-card .ant-card-body {
+    padding: 22px var(--indent-s);
+}
+
+.invites-block .invite-card .ant-typography {
+    color: var(--primary-light-9);
+    margin-bottom: var(--indent-x);
+    font-size: var(--font-size-s);
+    font-weight: var(--weight-bold);
+}
+
+.invite-card .author-info {
+    margin-right: var(--indent-x);
+}
+
+.invite-card .author-fullName {
+    text-align: center;
+}
+
+.invite-card .feedback-body .ant-btn-text {
+    padding: 0;
+    position: relative;
+}
+
+.invite-card__btns {
+    display: flex;
+    flex-direction: column;
+    gap: var(--indent-m);
+}
+
+.invite-card__btns .ant-btn {
+    font-size: var(--font-size-s);
+}
+
+.invite-card__btns .ant-btn-primary {
+    background: var(--primary-light-6);
+    border: var(--border-primary);
+}

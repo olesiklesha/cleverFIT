@@ -1,0 +1,12 @@
+
+.side-panel-header {
+    display: flex;
+    gap: var(--indent-xs);
+    align-items: center;
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-m);
+    line-height: var(--line-height);
+    color: var(--character-light-title-85);
+}

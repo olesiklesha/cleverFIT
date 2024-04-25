@@ -1,0 +1,12 @@
+.save-error-modal .modal-body__title {
+    width: 100%;
+}
+
+.save-error-modal .modal-body {
+    height: fit-content;
+    margin-bottom: 55px;
+}
+
+.save-error-modal .modal-error-btn {
+    right: var(--indent-l);
+}

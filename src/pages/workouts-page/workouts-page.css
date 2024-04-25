@@ -1,0 +1,15 @@
+.workouts-content {
+    position: relative;
+    font-family: var(--font-family);
+    line-height: var(--line-height);
+    font-weight: var(--weight-regular);
+    color: var(--character-light-primary-85);
+}
+
+.workouts-content_with-bg {
+    background: url("../../assets/images/empty-maraphon.jpg") center/cover no-repeat;
+}
+
+.workouts-content_mb {
+    margin-bottom: 0;
+}

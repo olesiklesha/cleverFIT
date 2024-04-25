@@ -1,0 +1,5 @@
+@media (max-width: 460px) {
+    .result-card .ant-result-500 {
+        padding: var(--indent-l) 0 var(--indent-ml);
+    }
+}

@@ -1,0 +1,10 @@
+export { MainPage } from './main-page';
+export { AuthPage } from './auth-page';
+export { FeedbackPage } from './feedback-page';
+export { ResultPage } from './result-page';
+export { CalendarPage } from './calendar-page';
+export { ProfilePage } from './profile-page';
+export { SettingsPage } from './settings-page';
+export { ErrorPage } from './error-page';
+export { WorkoutsPage } from './workouts-page';
+export { AchievementsPage } from './achievements-page';

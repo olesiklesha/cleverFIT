@@ -1,0 +1,65 @@
+.blur .result-card {
+    flex: 0 1 539px;
+    border-radius: 2px;
+    padding: var(--indent-xll) var(--indent-l) var(--indent-xl);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background: var(--character-light-primary-inverse);
+}
+
+.result-card .ant-card-body {
+    padding: 0;
+}
+
+.result-card .ant-result {
+    padding: 0;
+}
+
+.result-card .ant-result .ant-btn {
+    background: var(--primary-light-6);
+    border: var(--border-primary);
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-primary-inverse);
+}
+
+.result-card .ant-result-title {
+    font-family: var(--font-family);
+    font-weight: var(--weight-medium);
+    font-size: var(--font-size-l);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+}
+
+.result-card .ant-result-subtitle {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-secondary-45);
+}
+
+.result-card .ant-result-icon {
+    margin-bottom: 30px;
+}
+
+.result-card .ant-result-image {
+    margin-bottom: var(--indent-ml);
+}
+
+.result-card .ant-result-warning,
+.result-card .ant-result-error,
+.result-card .ant-result-success {
+    max-width: 368px;
+    margin: 0 auto;
+}
+
+@media (max-width: 460px) {
+    .blur .result-card {
+        padding: var(--indent-l) var(--indent-m);
+    }
+}

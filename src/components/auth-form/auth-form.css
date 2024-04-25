@@ -1,0 +1,134 @@
+.check-area .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-area .ant-form-item {
+    margin: 0;
+}
+
+.btn-area .ant-form-item-control-input-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--indent-m);
+}
+
+.auth-form {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+    margin-bottom: 108px;
+}
+
+.auth-form .ant-btn-default {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-x);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+}
+
+.auth-form .ant-btn > .anticon + span {
+    margin-left: var(--indent-xs);
+}
+
+.auth-form .ant-input-group-addon {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: var(--font-size-s);
+    line-height: var(--line-height);
+    text-align: center;
+    color: var(--character-light-title-85);
+}
+
+.auth-form .input-field {
+    margin-bottom: var(--indent-l);
+}
+
+.auth-form .password-field {
+    margin-bottom: 50px;
+}
+
+.auth-form .check-area {
+    margin-bottom: 20px;
+}
+
+.auth-form .ant-form-item-explain {
+    font-family: var(--font-family);
+    font-weight: var(--weight-regular);
+    font-size: 12px;
+    line-height: var(--line-height);
+    color: var(--character-light-secondary-45);
+    text-align: left;
+}
+
+.auth-form .ant-input-status-success {
+    background-color: transparent;
+}
+
+.auth-form .ant-input-group-wrapper-status-error .ant-input-group-addon {
+    border-color: #ff4d4f;
+    border-right-color: #d9d9d9;
+}
+
+.auth-form .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+    border-left-color: #d9d9d9;
+}
+
+.auth-form .ant-checkbox-checked .ant-checkbox-inner:after {
+    z-index: 2;
+}
+
+@media (max-width: 460px) {
+
+    .auth-form .ant-form-item-extra {
+        margin-left: 0;
+        word-spacing: -1px;
+    }
+
+    .auth-form .password-field {
+        margin-bottom: 45px;
+    }
+
+    .html-link {
+        font-size: var(--font-size-s);
+        padding: 0 7px;
+    }
+
+    .auth-form .ant-btn-default,
+    .auth-form .ant-btn-primary {
+        font-size: var(--font-size-s);
+    }
+
+    .auth-form .ant-btn-default > .anticon {
+        display: none;
+    }
+
+    .auth-form .ant-btn > .anticon + span {
+        margin: 0;
+    }
+
+    .auth-form .ant-btn-text {
+        font-family: var(--font-family);
+        font-weight: var(--weight-regular);
+        font-size: var(--font-size-s);
+        line-height: var(--line-height);
+        text-align: center;
+        color: var(--primary-light-6);
+        padding: 0 7px;
+    }
+
+    .auth-form .check-area {
+        margin-bottom: 18px;
+    }
+
+    .auth-form {
+        margin-bottom: 90px;
+    }
+}

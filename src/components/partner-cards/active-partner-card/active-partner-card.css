@@ -1,0 +1,17 @@
+.active-partners-container {
+    display: flex;
+    gap: var(--indent-m);
+    flex-wrap: wrap;
+}
+
+
+.active-partner-card {
+    max-width: 234px;
+    min-height: fit-content;
+}
+
+.active-partner-card .ant-card-body {
+    min-height: fit-content;
+    background: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+
+.relative-btn .ant-modal-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ant-card .ant-modal-wrap {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+    height: 100%;
+}
+
+
+.ant-card .ant-modal-wrap > .ant-modal {
+    top: initial;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+}
+
+.ant-card .ant-modal-wrap.top-left > .ant-modal {
+    top: 0;
+    left: 0;
+}
+
+.invite-card__btns {
+    margin-left: var(--indent-m);
+}
+
+@media (max-width: 1008px) {
+    .invite-card .ant-card-body {
+        flex-wrap: wrap;
+    }
+
+    .invite-card .author-info {
+        flex-direction: row;
+        margin-bottom: var(--indent-m);
+    }
+
+    .invite-card .ant-avatar {
+        flex-shrink: 0;
+    }
+
+    .invite-card .ant-card-body .author-fullName {
+        text-align: left;
+    }
+
+    .invite-card__btns {
+        margin-top: var(--indent-l);
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .invite-card__btns .ant-btn {
+        width: 100%;
+    }
+}
+
